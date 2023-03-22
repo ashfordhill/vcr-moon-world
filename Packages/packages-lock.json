@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.acchosen.vr-stage-lighting": {
+      "version": "file:com.acchosen.vr-stage-lighting",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.llealloo.audiolink": "0.3.1"
+      }
+    },
+    "com.llealloo.audiolink": {
+      "version": "file:com.llealloo.audiolink",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.4.11",
       "depth": 1,
@@ -202,6 +216,12 @@
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.2"
       }
+    },
+    "com.vrchat.udonsharp": {
+      "version": "file:com.vrchat.udonsharp",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.vrchat.worlds": {
       "version": "file:com.vrchat.worlds",
